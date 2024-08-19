@@ -10,5 +10,6 @@
       "y": "q9XOb2KQ9VxzP8rvzREUgGaCK15J8X9lOIZHdxwy5yo"
     }
   },
-  "issuerDid": "did:web:eminademburan.github.io:user:adem"
+  "issuerDid": "did:web:eminademburan.github.io:user:adem",
+  "id":"did:web:eminademburan.github.io:user:adem"
 }
