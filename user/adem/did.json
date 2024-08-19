@@ -3,11 +3,11 @@
     "type": "jwk",
     "jwk": {
       "kty": "EC",
-      "d": "Ll-BiIj2ebYJjWzr2EVgTNrzJxnar_Ob-myNRbX6VsM",
+      "d": "tm0lwMz6FCfXixqrmBK2tFE7XTS_4B5Wwoqv2ezAbHo",
       "crv": "secp256k1",
-      "kid": "7uA4XrVdVbOO-zZJgfv-8ZmuG3Xw6IpHvOrUyvrk6mc",
-      "x": "EWN2s7m71sL7mdCrg0rs0--D8s2lSfmJjwj8YZjizrQ",
-      "y": "q4VokNgLhKetP56oX_4On2IVkAnP9YvDeA9WZuSv7gU"
+      "kid": "Wq2t1jF4jyFAVS1qsjuWjZAYcxV03BnG277AHHEJljA",
+      "x": "jxyITbQpuOru5wQRizRR7uaZpF8pp7A7A9CCNvScHrI",
+      "y": "q9XOb2KQ9VxzP8rvzREUgGaCK15J8X9lOIZHdxwy5yo"
     }
   },
   "issuerDid": "did:web:eminademburan.github.io:user:adem"
