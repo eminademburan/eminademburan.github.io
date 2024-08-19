@@ -1,1 +1,14 @@
-hello world
+{
+  "issuerKey": {
+    "type": "jwk",
+    "jwk": {
+      "kty": "EC",
+      "d": "Ll-BiIj2ebYJjWzr2EVgTNrzJxnar_Ob-myNRbX6VsM",
+      "crv": "secp256k1",
+      "kid": "7uA4XrVdVbOO-zZJgfv-8ZmuG3Xw6IpHvOrUyvrk6mc",
+      "x": "EWN2s7m71sL7mdCrg0rs0--D8s2lSfmJjwj8YZjizrQ",
+      "y": "q4VokNgLhKetP56oX_4On2IVkAnP9YvDeA9WZuSv7gU"
+    }
+  },
+  "issuerDid": "did:web:eminademburan.github.io:user:adem"
+}
