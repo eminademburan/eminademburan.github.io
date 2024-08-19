@@ -1,15 +1,35 @@
 {
-  "issuerKey": {
-    "type": "jwk",
-    "jwk": {
-      "kty": "EC",
-      "d": "tm0lwMz6FCfXixqrmBK2tFE7XTS_4B5Wwoqv2ezAbHo",
-      "crv": "secp256k1",
-      "kid": "Wq2t1jF4jyFAVS1qsjuWjZAYcxV03BnG277AHHEJljA",
-      "x": "jxyITbQpuOru5wQRizRR7uaZpF8pp7A7A9CCNvScHrI",
-      "y": "q9XOb2KQ9VxzP8rvzREUgGaCK15J8X9lOIZHdxwy5yo"
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:eminademburan.github.io:user:adem",
+  "verificationMethod": [
+    {
+      "id": "did:web:eminademburan.github.io:user:adem#8eUFvHTNTPeDjk25GsJJnRFl4cAtmFeGClSnX4ii8og",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:eminademburan.github.io:user:adem",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "8eUFvHTNTPeDjk25GsJJnRFl4cAtmFeGClSnX4ii8og",
+        "x": "fK14ml3CcPtZTUnMtpRK-iHblamepiK6Dpfygf5AHk4"
+      }
     }
-  },
-  "issuerDid": "did:web:eminademburan.github.io:user:adem",
-  "id":"did:web:eminademburan.github.io:user:adem"
+  ],
+  "assertionMethod": [
+    "did:web:eminademburan.github.io:user:adem#8eUFvHTNTPeDjk25GsJJnRFl4cAtmFeGClSnX4ii8og"
+  ],
+  "authentication": [
+    "did:web:eminademburan.github.io:user:adem#8eUFvHTNTPeDjk25GsJJnRFl4cAtmFeGClSnX4ii8og"
+  ],
+  "capabilityInvocation": [
+    "did:web:eminademburan.github.io:user:adem#8eUFvHTNTPeDjk25GsJJnRFl4cAtmFeGClSnX4ii8og"
+  ],
+  "capabilityDelegation": [
+    "did:web:eminademburan.github.io:user:adem#8eUFvHTNTPeDjk25GsJJnRFl4cAtmFeGClSnX4ii8og"
+  ],
+  "keyAgreement": [
+    "did:web:eminademburan.github.io:user:adem#8eUFvHTNTPeDjk25GsJJnRFl4cAtmFeGClSnX4ii8og"
+  ]
 }
