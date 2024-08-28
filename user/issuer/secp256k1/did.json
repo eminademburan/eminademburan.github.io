@@ -1,1 +1,37 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:eminademburan.github.io:user:issuer:secp256k1",
+  "verificationMethod": [
+    {
+      "id": "did:web:eminademburan.github.io:user:issuer:secp256k1#FFmlxjw5adbAkBAgAzWURjPbI7fuPFyETIehDUU_zss",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:eminademburan.github.io:user:issuer:secp256k1",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "kid": "FFmlxjw5adbAkBAgAzWURjPbI7fuPFyETIehDUU_zss",
+        "x": "dAZAb7Xc5thh3VlLcQsGOiQM9tfolo1oUmnCdcoa3wA",
+        "y": "3w0plTLSEgTqF637gr23t4Dm3P5xvB5dbj6qHlcOf9o"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:eminademburan.github.io:user:issuer:secp256k1#FFmlxjw5adbAkBAgAzWURjPbI7fuPFyETIehDUU_zss"
+  ],
+  "authentication": [
+    "did:web:eminademburan.github.io:user:issuer:secp256k1#FFmlxjw5adbAkBAgAzWURjPbI7fuPFyETIehDUU_zss"
+  ],
+  "capabilityInvocation": [
+    "did:web:eminademburan.github.io:user:issuer:secp256k1#FFmlxjw5adbAkBAgAzWURjPbI7fuPFyETIehDUU_zss"
+  ],
+  "capabilityDelegation": [
+    "did:web:eminademburan.github.io:user:issuer:secp256k1#FFmlxjw5adbAkBAgAzWURjPbI7fuPFyETIehDUU_zss"
+  ],
+  "keyAgreement": [
+    "did:web:eminademburan.github.io:user:issuer:secp256k1#FFmlxjw5adbAkBAgAzWURjPbI7fuPFyETIehDUU_zss"
+  ]
+}
 
