@@ -1,1 +1,36 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:eminademburan.github.io:user:adem:RSA",
+  "verificationMethod": [
+    {
+      "id": "did:web:eminademburan.github.io:user:adem:RSA#X33uloC1d3S7mZSOP5yxL1Skgdd3jqJ8N9nkIjTGS5k",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:eminademburan.github.io:user:adem:RSA",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "e": "AQAB",
+        "kid": "X33uloC1d3S7mZSOP5yxL1Skgdd3jqJ8N9nkIjTGS5k",
+        "n": "nodQ0hbRjYUu4wo35CiX-m4kDcBe5M-HpryibpUX3NSTXhvuyt-mjwE2FEWfmr649-4oQhORNZ61ktwpDeNq1BddxiTFtP5tVIu2VTTqSfsbMzk45YhfYxpJRmbCXQPwou_-OKgbih--CRPR4S-0g8eEQMITYN5gQWZ40sv-fK6DvCpd_Cow2MR_cmT324nXD12TkncD-pbm4rBw2FK7v3quzLNG5KtIiG2v-t2pxM-o7DshcB-vkk13jOeaLMLR6BfAHhTnVplKKNpC1HRBtwEliXObVe8BHIKV2QZJbm3gMS7rW020emIJfYBdq7jM3FjGfVoXOU2EbemJQCHVgQ"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:eminademburan.github.io:user:adem:RSA#X33uloC1d3S7mZSOP5yxL1Skgdd3jqJ8N9nkIjTGS5k"
+  ],
+  "authentication": [
+    "did:web:eminademburan.github.io:user:adem:RSA#X33uloC1d3S7mZSOP5yxL1Skgdd3jqJ8N9nkIjTGS5k"
+  ],
+  "capabilityInvocation": [
+    "did:web:eminademburan.github.io:user:adem:RSA#X33uloC1d3S7mZSOP5yxL1Skgdd3jqJ8N9nkIjTGS5k"
+  ],
+  "capabilityDelegation": [
+    "did:web:eminademburan.github.io:user:adem:RSA#X33uloC1d3S7mZSOP5yxL1Skgdd3jqJ8N9nkIjTGS5k"
+  ],
+  "keyAgreement": [
+    "did:web:eminademburan.github.io:user:adem:RSA#X33uloC1d3S7mZSOP5yxL1Skgdd3jqJ8N9nkIjTGS5k"
+  ]
+}
 
