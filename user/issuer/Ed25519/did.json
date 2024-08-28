@@ -1,1 +1,36 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:eminademburan.github.io:user:issuer:Ed25519",
+  "verificationMethod": [
+    {
+      "id": "did:web:eminademburan.github.io:user:issuer:Ed25519#R9H9DQ_o-NwPuRiiWYAucPgjFDxCE48DAIKJvWrfuGo",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:eminademburan.github.io:user:issuer:Ed25519",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "R9H9DQ_o-NwPuRiiWYAucPgjFDxCE48DAIKJvWrfuGo",
+        "x": "hCiMrJEwUYdyuFf_-43kw4oyUI2dbLnsf2oW65FEQQg"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:eminademburan.github.io:user:issuer:Ed25519#R9H9DQ_o-NwPuRiiWYAucPgjFDxCE48DAIKJvWrfuGo"
+  ],
+  "authentication": [
+    "did:web:eminademburan.github.io:user:issuer:Ed25519#R9H9DQ_o-NwPuRiiWYAucPgjFDxCE48DAIKJvWrfuGo"
+  ],
+  "capabilityInvocation": [
+    "did:web:eminademburan.github.io:user:issuer:Ed25519#R9H9DQ_o-NwPuRiiWYAucPgjFDxCE48DAIKJvWrfuGo"
+  ],
+  "capabilityDelegation": [
+    "did:web:eminademburan.github.io:user:issuer:Ed25519#R9H9DQ_o-NwPuRiiWYAucPgjFDxCE48DAIKJvWrfuGo"
+  ],
+  "keyAgreement": [
+    "did:web:eminademburan.github.io:user:issuer:Ed25519#R9H9DQ_o-NwPuRiiWYAucPgjFDxCE48DAIKJvWrfuGo"
+  ]
+}
 
