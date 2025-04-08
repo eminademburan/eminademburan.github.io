@@ -1,1 +1,35 @@
-
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:eminademburan.github.io:user:acme",
+  "verificationMethod": [
+    {
+      "id": "did:web:eminademburan.github.io:user:acme#A1lClQpe1AnVuXU4_WP_6KvB6wxaffDor3F_sU2c3ro",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:eminademburan.github.io:user:acme",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "A1lClQpe1AnVuXU4_WP_6KvB6wxaffDor3F_sU2c3ro",
+        "x": "3krL37nQhj7L_u1KvqChHJpHUKJs41WFuwJrpHxtG-w"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:eminademburan.github.io:user:acme#A1lClQpe1AnVuXU4_WP_6KvB6wxaffDor3F_sU2c3ro"
+  ],
+  "authentication": [
+    "did:web:eminademburan.github.io:user:acme#A1lClQpe1AnVuXU4_WP_6KvB6wxaffDor3F_sU2c3ro"
+  ],
+  "capabilityInvocation": [
+    "did:web:eminademburan.github.io:user:acme#A1lClQpe1AnVuXU4_WP_6KvB6wxaffDor3F_sU2c3ro"
+  ],
+  "capabilityDelegation": [
+    "did:web:eminademburan.github.io:user:acme#A1lClQpe1AnVuXU4_WP_6KvB6wxaffDor3F_sU2c3ro"
+  ],
+  "keyAgreement": [
+    "did:web:eminademburan.github.io:user:acme#A1lClQpe1AnVuXU4_WP_6KvB6wxaffDor3F_sU2c3ro"
+  ]
+}
