@@ -1,1 +1,35 @@
-
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:eminademburan.github.io:user:alice",
+  "verificationMethod": [
+    {
+      "id": "did:web:eminademburan.github.io:user:alice#ZKjQFfXhgOucdHaRMA972LEVIIsl15EA48TYG362PwA",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:eminademburan.github.io:user:alice",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "ZKjQFfXhgOucdHaRMA972LEVIIsl15EA48TYG362PwA",
+        "x": "sHzRUnD8g57xFrQddt03MvMqeubY48Dc_3oPBpVoyak"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:eminademburan.github.io:user:alice#ZKjQFfXhgOucdHaRMA972LEVIIsl15EA48TYG362PwA"
+  ],
+  "authentication": [
+    "did:web:eminademburan.github.io:user:alice#ZKjQFfXhgOucdHaRMA972LEVIIsl15EA48TYG362PwA"
+  ],
+  "capabilityInvocation": [
+    "did:web:eminademburan.github.io:user:alice#ZKjQFfXhgOucdHaRMA972LEVIIsl15EA48TYG362PwA"
+  ],
+  "capabilityDelegation": [
+    "did:web:eminademburan.github.io:user:alice#ZKjQFfXhgOucdHaRMA972LEVIIsl15EA48TYG362PwA"
+  ],
+  "keyAgreement": [
+    "did:web:eminademburan.github.io:user:alice#ZKjQFfXhgOucdHaRMA972LEVIIsl15EA48TYG362PwA"
+  ]
+}
