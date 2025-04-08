@@ -1,1 +1,35 @@
-
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:eminademburan.github.io:user:faber",
+  "verificationMethod": [
+    {
+      "id": "did:web:eminademburan.github.io:user:faber#RpH3j4n-YwAK1XbPZ2JdPufjsRTkZ3MqkrjcMCmVoNE",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:eminademburan.github.io:user:faber",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "RpH3j4n-YwAK1XbPZ2JdPufjsRTkZ3MqkrjcMCmVoNE",
+        "x": "0mpVe6Wh917y9BPjKyUaW7abCYdlDpTP7RxQSY7Ryfo"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:eminademburan.github.io:user:faber#RpH3j4n-YwAK1XbPZ2JdPufjsRTkZ3MqkrjcMCmVoNE"
+  ],
+  "authentication": [
+    "did:web:eminademburan.github.io:user:faber#RpH3j4n-YwAK1XbPZ2JdPufjsRTkZ3MqkrjcMCmVoNE"
+  ],
+  "capabilityInvocation": [
+    "did:web:eminademburan.github.io:user:faber#RpH3j4n-YwAK1XbPZ2JdPufjsRTkZ3MqkrjcMCmVoNE"
+  ],
+  "capabilityDelegation": [
+    "did:web:eminademburan.github.io:user:faber#RpH3j4n-YwAK1XbPZ2JdPufjsRTkZ3MqkrjcMCmVoNE"
+  ],
+  "keyAgreement": [
+    "did:web:eminademburan.github.io:user:faber#RpH3j4n-YwAK1XbPZ2JdPufjsRTkZ3MqkrjcMCmVoNE"
+  ]
+}
